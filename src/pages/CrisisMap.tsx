@@ -12,14 +12,14 @@ export default function CrisisMap() {
   const crises = [
     {
       id: 1,
-      name: 'Ukraine Crisis',
-      location: 'Eastern Europe',
+      name: 'Congo Crisis',
+      location: 'Central Africa',
       coordinates: { x: '55%', y: '25%' },
       type: 'Conflict',
       severity: 'Critical',
       affected: '17.6M people',
       refugees: '6.2M displaced',
-      description: 'Ongoing conflict has created one of the largest refugee crises in Europe since WWII',
+      description: 'Ongoing conflict has created one of the largest refugee crises in Africa',
       organizations: ['UNHCR', 'UNICEF', 'WFP', 'Save the Children'],
       lastUpdate: '2 hours ago',
       donations: '$2.4B raised',
@@ -42,14 +42,14 @@ export default function CrisisMap() {
     },
     {
       id: 3,
-      name: 'Afghanistan Humanitarian Crisis',
-      location: 'Central Asia',
+      name: 'Gaza Crisis',
+      location: 'Middle East',
       coordinates: { x: '68%', y: '35%' },
       type: 'Humanitarian',
-      severity: 'High',
+      severity: 'Critical',
       affected: '28.3M people',
       refugees: '2.6M displaced',
-      description: 'Economic collapse and restricted humanitarian access affecting millions',
+      description: 'Starvation, armed conflict and restricted humanitarian access affecting millions',
       organizations: ['WFP', 'UNHCR', 'Save the Children', 'ActionAid'],
       lastUpdate: '1 day ago',
       donations: '$1.2B raised',
@@ -76,7 +76,7 @@ export default function CrisisMap() {
       location: 'Arabian Peninsula',
       coordinates: { x: '58%', y: '48%' },
       type: 'Humanitarian',
-      severity: 'Critical',
+      severity: 'High',
       affected: '21.6M people',
       refugees: '4.3M displaced',
       description: 'World\'s worst humanitarian crisis with severe food insecurity',
@@ -84,6 +84,21 @@ export default function CrisisMap() {
       lastUpdate: '3 hours ago',
       donations: '$1.8B raised',
       volunteers: 4200
+    },
+    {
+      id: 6,
+      name: 'Ukraine Crisis',
+      location: 'Eastern Europe',
+      coordinates: { x: '55%', y: '25%' },
+      type: 'Conflict',
+      severity: 'Critical',
+      affected: '17.6M people',
+      refugees: '6.2M displaced',
+      description: 'Ongoing conflict has created one of the largest refugee crises in Europe since WWII',
+      organizations: ['UNHCR', 'UNICEF', 'WFP', 'Save the Children'],
+      lastUpdate: '2 hours ago',
+      donations: '$2.4B raised',
+      volunteers: 12500
     }
   ];
 

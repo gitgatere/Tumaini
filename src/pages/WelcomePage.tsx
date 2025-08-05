@@ -15,7 +15,7 @@ export default function WelcomePage({ onContinue }: WelcomePageProps) {
   const slides = [
     {
       image: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=1200',
-      title: 'Crisis in Ukraine',
+      title: 'Crisis in Congo',
       subtitle: 'Millions need immediate humanitarian aid'
     },
     {
