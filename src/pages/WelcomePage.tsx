@@ -145,10 +145,7 @@ export default function WelcomePage({ onContinue }: WelcomePageProps) {
               </button>
             </div>
 
-            <div className="flex items-center justify-center mt-6 text-gray-300 text-sm">
-              <Globe className="w-4 h-4 mr-2" />
-              <span>Available in 12 languages</span>
-            </div>
+            
           </div>
         </div>
       </div>
